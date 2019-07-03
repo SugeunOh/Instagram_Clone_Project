@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723e1423-0f83-41ee-9e0e-e518dead0736" name="Default Changelist" comment="" />
+    <list default="true" id="723e1423-0f83-41ee-9e0e-e518dead0736" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.dm" beforeDir="false" afterPath="$PROJECT_DIR$/README.dm" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +15,11 @@
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.dm">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -34,6 +41,7 @@
         <option value="$PROJECT_DIR$/insta_clone/insta_clone/images/apps.py" />
         <option value="$PROJECT_DIR$/insta_clone/insta_clone/users/models.py" />
         <option value="$PROJECT_DIR$/insta_clone/insta_clone/images/models.py" />
+        <option value="$PROJECT_DIR$/README.dm" />
       </list>
     </option>
   </component>
@@ -196,7 +204,11 @@
     <entry file="file://$PROJECT_DIR$/insta_clone/insta_clone/images/models.py" />
     <entry file="file://$PROJECT_DIR$/insta_clone/config/settings/base.py" />
     <entry file="file://$PROJECT_DIR$/README.dm">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
