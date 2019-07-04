@@ -13,16 +13,26 @@ class TimeStampedModel(models.Model):
 
 class Image(TimeStampedModel):
 
+    """ Image Model """
+
     file = models.ImageField()                   # 이미지파일
     location = models.CharField(max_length=140)  # 촬영한 위치
     caption = models.TextField()                 # 이미지에 대한 설명
+    creator = models.ForeignKey(user_models.User, null=True, on_delete=models.CASCADE)
 
 
 class Comment(TimeStampedModel):
 
+    """ Comment Model """
+
     message = models.TextField()                 # 댓글 텍스트
+    creator = models.ForeignKey(user_models.User, null=True, on_delete=models.CASCADE)
+    image = models.ForeignKey(Image, null=True, on_delete=models.CASCADE)
 
 
 class Like(TimeStampedModel):
 
-    creator = models.ForeignKey(user_models)
+    """ Like Model """
+
+    creator = models.ForeignKey(user_models.User, null=True, on_delete=models.CASCADE)
+    image = models.ForeignKey(Image, null=True, on_delete=models.CASCADE)
